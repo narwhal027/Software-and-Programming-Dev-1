@@ -1,0 +1,13 @@
+public class App {
+    public static void main(String[] args) { // Begins new method which should print every number 0 to 100 on different lines along with whether they're even or odd and along with the total of the numbers to that point.
+        int x = 0; // Creates int named x which should print the total of the numbers so far whenever it's called.
+        for (int i = 0; i < 101; i++, x = x + i){ // Creates the loop using a new int named i, which should increase by 1 each time the loop is called. It also increases the value of x by the value of i.
+            if (i % 2 == 0) { // Checks to see if the current value for i can be devided equally by 2.
+                System.out.println(i + "    Even    " + x); // If the current value for i can be devided by 2, then it prints the current value for i, the word "even", and the current value of x.
+            }
+            else if (i % 2 != 0) { // Checks to see if the current value of i can't be devided by 2.
+                System.out.println(i + "    Odd     " + x); // If the current value for i can't be devided by 2, then it prints the current value for i, the word "odd", and the current value of x.
+            }
+        }
+    }
+}
