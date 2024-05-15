@@ -1,3 +1,5 @@
+// This program was made for a Programmin and Software Dev 1 class run by Kim Gross.
+// This program was made by Logan Hansen.
 public class Exceptions {
     public static void main(String[] args) {
         try {
